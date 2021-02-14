@@ -1,1 +1,38 @@
 /* Use Selectors and attributes for the HTML design */
+body{
+       text-align: center;
+       border-left: 6px solid black;
+       height: 800px;
+       position: absolute;
+       left: 30%;
+       }
+h1{
+       text-align: left;
+       text-decoration: overline;
+       font-size: 50px;
+       font-weight: bolder;
+}
+p{
+       font-size: 20px;
+}
+legend{
+       text-align: left;
+       border-top: 3px solid black;
+}
+.title {
+       text-align: left;
+       font-size: larger;       
+}
+.telephone{
+       text-align: left;
+       font-size: larger;
+}
+.company{
+       text-align: left;
+       font-size: larger;
+}
+.button [type=save]{
+       text-align: right;
+       background-color: red;
+       font-size: small;
+}

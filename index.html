@@ -1,3 +1,83 @@
 <!--  Style this form accrding to the image.
       Extra points: Create your own style in
       yourstyle.html  -->
+      <!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div>
+          <header>
+              <h1>Profile</h1>
+              <p><b>Hier konnen Sie lhre adress-Angaben einsehen und anpassen. </b></p>
+              </header>
+
+          <form action="/action_page.php" method="GET">
+            
+                  <legend><b>Personal Detail</b></legend><br>
+                  <div class="title">
+            <label for="title">Title</label>
+            <input type="text" placeholder="Mr, Mrs,Ms"><br>
+            <label for="surname">Surname</label>
+            <input type="text" placeholder="zaman"><br>
+            <label for="name">Name</label>
+            <input type="text" placeholder="bhutta"><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" id="myRadio">M
+            <input type="radio" name="gender" value="female" id="myRadio">F
+            <br>
+            <label for="language">Language</label>
+            <input type="radio" name="language" value="english" id="myRadio">EN
+            <input type="radio" name="language" value="italian" id="myRadio">IT
+            <input type="radio" name="language" value="german" id="myRadio">DE
+            </div>  
+            <br><br>
+
+            <legend><b>Contact Detail</b></legend><br>
+            <div class="telephone">
+            <label for="telephone">Telephone</label>
+            <input type="text" placeholder="1234567890"><br>
+            <label for="mobile">Mobile</label>
+            <input type="text" placeholder="optional"><br>
+            <label for="main">MainNumber</label>
+            <input type="text" placeholder="optional"><br>
+            <label for="mail 1">Mail 1</label>
+            <input type="text" placeholder="marham.ayat@gmail.com"><br>
+            <label for="mail 2">Mail 2</label>
+            <input type="text" placeholder="optional">
+          </div>
+            
+            <br><br>
+            <legend><b>Address Detail</b></legend><br>
+            <div class="company">
+            <label for="company">Company</label>
+            <input type="text" placeholder="company name"><br>
+            <label for="additional">Additional</label>
+            <input type="text" placeholder="optional"><br>
+            <label for="homepage">Homepage</label>
+            <input type="text" placeholder="optional"><br>
+            <label for="address/home nr">Address/Home Nr</label>
+            <input type="text" placeholder="milan,33"><br>
+            <label for="addition">Additional Address</label>
+            <input type="text" placeholder="optional"><br>
+            <label for="post">P O Box</label>
+            <input type="" placeholder="optional"><br>
+            <label for="postcode/place">Postcode/Place</label>
+            <input type="text" placeholder="21042,Via"><br>
+            <label for="province/country">Province/Country</label>
+            <input type="text" placeholder="MI/Italy"><br>
+          </div>
+
+            <br><br>
+            <div class="button">
+            <button type="save" value="save">Save</button>
+          </div>
+          </form>
+    </body>
+
+        
+
